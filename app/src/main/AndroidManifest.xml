@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.motive">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_cinema"
+        android:label="@string/label"
+        android:roundIcon="@mipmap/ic_cinema_round"
+        android:supportsRtl="true"
+        android:theme="@style/Custom"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".ui.show.MainTvActivity" />
+        <activity android:name=".ui.detailMovie.DetailActivity" />
+        <activity android:name=".ui.detailTv.DetailTvActivity" />
+        <activity android:name=".ui.show.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

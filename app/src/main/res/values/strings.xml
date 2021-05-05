@@ -1,0 +1,17 @@
+<resources>
+    <string name="label">Motive</string>
+    <string name="NETWORK">Maaf masalah jaringan</string>
+    <string name="title">Title</string>
+    <string name="description">Desc</string>
+    <string name="production">Prod</string>
+    <string name="character">Char</string>
+    <string name="back">Back</string>
+    <string name="hello_world_2">Hello World! 2</string>
+    <string name="movie">Movie</string>
+    <string name="watch_your_favorite_movie">Watch your favorite movie</string>
+    <string name="title_movie">Title</string>
+    <string name="popular_item">Popular</string>
+    <string name="watch_your_favorite_tv">Watch your favorite tv</string>
+    <string name="_0">0%</string>
+    <string name="berhasil">Berhasil</string>
+</resources>
